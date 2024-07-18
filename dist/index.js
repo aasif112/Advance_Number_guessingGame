@@ -2,7 +2,7 @@
 import inquirer from "inquirer";
 let randomNumber = Math.trunc(Math.random() * 100 + 1);
 let userAttempt = 0;
-let remainAttempt = 7;
+let remainAttempt = 10;
 let userGuessedNumbers = [];
 const askToStart = await inquirer.prompt([
     { message: "\tDo You want to start Number Guessing Game?", name: "askToStart",
