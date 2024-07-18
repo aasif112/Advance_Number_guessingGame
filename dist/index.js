@@ -10,7 +10,7 @@ const askToStart = await inquirer.prompt([
         choices: ["Yes", "No"] }
 ]);
 if (askToStart.askToStart === "Yes") {
-    console.log(`\tA Game number is Generated.\n\tGuess the number and Enter to check:\n\tNote: You have Only 7 Chances.`);
+    console.log(`\tA Game Number is Generated.\n\tGuess a number and Enter to check:\n\tNote: You have Only 10 Chances.`);
     console.log(``);
     startGame();
 }
